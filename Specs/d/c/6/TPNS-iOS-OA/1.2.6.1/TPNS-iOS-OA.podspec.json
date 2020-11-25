@@ -2,11 +2,11 @@
   "name": "TPNS-iOS-OA",
   "version": "1.2.6.1",
   "summary": "腾讯移动推送(iOS)",
-  "homepage": "http://git.code.oa.com/tpns/XG-CocoaPods.git",
+  "homepage": "https://git.code.oa.com/tpns/XG-CocoaPods.git",
   "authors": "tencent",
   "license": "MIT",
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "frameworks": [
     "CFNetwork",
@@ -22,7 +22,7 @@
     "sqlite3"
   ],
   "source": {
-    "git": "http://git.code.oa.com/tpns/XG-CocoaPods.git",
+    "git": "https://git.code.oa.com/tpns/XG-CocoaPods.git",
     "tag": "TPNS-iOS-V1.2.6.1"
   },
   "source_files": [

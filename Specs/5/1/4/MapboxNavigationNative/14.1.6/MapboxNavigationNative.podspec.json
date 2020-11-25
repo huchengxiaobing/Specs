@@ -13,7 +13,7 @@
     "file": "LICENSE.md"
   },
   "source": {
-    "http": "https://dl.bintray.com/content/mapbox/mapbox_private/MapboxNavigationNative-ios-sdk-14.1.6.zip",
+    "http": "https://api.mapbox.com/downloads/v2/mobile-navigation-native/releases/ios/packages/14.1.6/MapboxNavigationNative.zip",
     "flatten": true
   },
   "preserve_paths": "**/*.bcsymbolmap",

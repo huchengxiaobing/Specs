@@ -16,7 +16,7 @@
     "tag": "3.5.0"
   },
   "default_subspecs": "All",
-  "static_framework": true,
+  "static_framework": false,
   "xcconfig": {
     "VALID_ARCHS": "armv7 armv7s x86_64 arm64"
   },
@@ -54,7 +54,8 @@
           "4.1.5"
         ]
       },
-      "source_files": "**/adnetworks/AdColony/*.{h,m,txt}"
+      "source_files": "**/adnetworks/AdColony/*.{h,m}",
+      "resources": "**/adnetworks/AdColony/*.txt"
     },
     {
       "name": "AdMob",
@@ -66,7 +67,8 @@
           "7.58.0"
         ]
       },
-      "source_files": "**/adnetworks/AdMob/*.{h,m,txt}"
+      "source_files": "**/adnetworks/AdMob/*.{h,m}",
+      "resources": "**/adnetworks/AdMob/*.txt"
     },
     {
       "name": "AfiO",
@@ -78,7 +80,8 @@
           "6.0.4"
         ]
       },
-      "source_files": "**/adnetworks/Afio/*.{h,m,txt}"
+      "source_files": "**/adnetworks/Afio/*.swift",
+      "resources": "**/adnetworks/Afio/*.txt"
     },
     {
       "name": "AppLovin",
@@ -90,7 +93,8 @@
           "6.12.8"
         ]
       },
-      "source_files": "**/adnetworks/AppLovin/*.{h,m,txt}"
+      "source_files": "**/adnetworks/AppLovin/*.{h,m}",
+      "resources": "**/adnetworks/AppLovin/*.txt"
     },
     {
       "name": "FAN",
@@ -102,7 +106,8 @@
           "5.9.0"
         ]
       },
-      "source_files": "**/adnetworks/FAN/*.{h,m,txt}"
+      "source_files": "**/adnetworks/FAN/*.{h,m}",
+      "resources": "**/adnetworks/FAN/*.txt"
     },
     {
       "name": "Maio",
@@ -114,7 +119,8 @@
           "1.5.4"
         ]
       },
-      "source_files": "**/adnetworks/Maio/*.{h,m,txt}"
+      "source_files": "**/adnetworks/Maio/*.{h,m}",
+      "resources": "**/adnetworks/Maio/*.txt"
     },
     {
       "name": "NendAd",
@@ -126,7 +132,8 @@
           "5.4.1"
         ]
       },
-      "source_files": "**/adnetworks/NendAd/*.{h,m,txt}"
+      "source_files": "**/adnetworks/NendAd/*.{h,m}",
+      "resources": "**/adnetworks/NendAd/*.txt"
     },
     {
       "name": "Pangle",
@@ -138,7 +145,8 @@
           "3.0.0.2"
         ]
       },
-      "source_files": "**/adnetworks/Pangle/*.{h,m,txt}"
+      "source_files": "**/adnetworks/Pangle/*.{h,m}",
+      "resources": "**/adnetworks/Pangle/*.txt"
     },
     {
       "name": "Tapjoy",
@@ -150,7 +158,8 @@
           "12.4.2"
         ]
       },
-      "source_files": "**/adnetworks/Tapjoy/*.{h,m,txt}"
+      "source_files": "**/adnetworks/Tapjoy/*.{h,m}",
+      "resources": "**/adnetworks/Tapjoy/*.txt"
     },
     {
       "name": "UnityAds",
@@ -162,7 +171,8 @@
           "3.4.6"
         ]
       },
-      "source_files": "**/adnetworks/UnityAds/*.{h,m,txt}"
+      "source_files": "**/adnetworks/UnityAds/*.{h,m}",
+      "resources": "**/adnetworks/UnityAds/*.txt"
     },
     {
       "name": "Vungle",
@@ -174,7 +184,8 @@
           "6.5.3"
         ]
       },
-      "source_files": "**/adnetworks/Vungle/*.{h,m,txt}"
+      "source_files": "**/adnetworks/Vungle/*.{h,m}",
+      "resources": "**/adnetworks/Vungle/*.txt"
     },
     {
       "name": "MoPub",
@@ -186,7 +197,8 @@
           "5.13.0"
         ]
       },
-      "source_files": "**/adnetworks/MoPub/*.{h,m,txt}"
+      "source_files": "**/adnetworks/MoPub/*.{h,m}",
+      "resources": "**/adnetworks/MoPub/*.txt"
     },
     {
       "name": "All",

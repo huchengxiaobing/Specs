@@ -7,7 +7,7 @@
   },
   "summary": "Akamai Mobile Application Performance (MAP) SDK",
   "description": "Akamai’s Mobile Application Performance (MAP) SDK enables app owners and developers to understand the causes of mobile application latency and to optimize and accelerate their app’s API and image requests over the Akamai Intelligent Platform.",
-  "homepage": "https://developer.akamai.com/tools/sdk/mobile-application-performance",
+  "homepage": "https://developer.akamai.com/article/new-performance-optimization-monitoring-sdks",
   "social_media_url": "https://twitter.com/akamai",
   "authors": {
     "Akamai Technologies": "microedge@akamai.com"

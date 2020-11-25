@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "OceanTokens": [
-      "~> 0.1"
+
     ]
   },
   "source_files": "OceanComponents/Classes/**/*",

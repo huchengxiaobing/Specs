@@ -21,14 +21,34 @@
   "platforms": {
     "ios": "9.0"
   },
-  "ios": {
-    "vendored_frameworks": "MapmyIndiaSafetyPlugin.framework"
-  },
   "swift_versions": "4.2",
-  "dependencies": {
-    "MapmyIndiaAPIKit": [
-      "~> 1.4.1"
-    ]
-  },
+  "default_subspecs": "Complete",
+  "subspecs": [
+    {
+      "name": "Complete",
+      "dependencies": {
+        "MapmyIndiaSafetyPlugin/Base": [
+
+        ],
+        "MapmyIndiaSafetyPlugin/Dependencies": [
+
+        ]
+      }
+    },
+    {
+      "name": "Base",
+      "ios": {
+        "vendored_frameworks": "MapmyIndiaSafetyPlugin.framework"
+      }
+    },
+    {
+      "name": "Dependencies",
+      "dependencies": {
+        "MapmyIndiaAPIKit": [
+          "~> 1.4.1"
+        ]
+      }
+    }
+  ],
   "swift_version": "4.2"
 }

@@ -20,10 +20,14 @@
   "resource_bundles": {
     "StraaSPlayerSDK": [
       "ios/StraaSPlayerSDK.framework/Assets.car",
-      "ios/StraaSPlayerSDK.framework/*.lproj"
+      "ios/StraaSPlayerSDK.framework/Settings.bundle/*.lproj/*.strings"
     ],
     "StraaSMessagingSDK": [
-      "ios/StraaSMessagingSDK.framework/*.lproj"
+      "ios/StraaSMessagingSDK.framework/Settings.bundle/*.lproj/*.strings"
+    ],
+    "StraaSStreamingSDK": [
+      "ios/StraaSStreamingSDK.framework/Assets.car",
+      "ios/StraaSStreamingSDK.framework/Settings.bundle/*.lproj/*.strings"
     ]
   },
   "subspecs": [
@@ -62,7 +66,7 @@
           "~> 0.1.10"
         ],
         "HaishinKit-Straas": [
-          "~> 1.0.9"
+          "~> 1.0.11"
         ]
       }
     },

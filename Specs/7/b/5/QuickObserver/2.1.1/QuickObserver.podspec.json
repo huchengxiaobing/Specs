@@ -15,11 +15,12 @@
   "platforms": {
     "ios": "10.0"
   },
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "source": {
     "git": "https://github.com/TimRascher/QuickObserver.git",
     "branch": "Cocoapods/2.1.1",
     "tag": "Cocoapods/2.1.1"
   },
-  "source_files": "QuickObserver/**/*.{swift}"
+  "source_files": "Sources/**/**/*.{swift}",
+  "swift_version": "5.0"
 }

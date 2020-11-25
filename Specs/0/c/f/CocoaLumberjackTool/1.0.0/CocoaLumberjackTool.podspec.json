@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "真机设备实时显示日志",
   "description": "利用CocoaLumberjack将日志实时的显示在设备屏幕上",
-  "homepage": "https://github.com/TaylorsZ/CocoaLumberjack",
+  "homepage": "https://github.com/TaylorsZ/CocoaLumberjackTool",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "大奔": "zhangs1992@126.com"
   },
   "source": {
-    "git": "https://github.com/TaylorsZ/CocoaLumberjack.git",
+    "git": "https://github.com/TaylorsZ/CocoaLumberjackTool.git",
     "tag": "1.0.0"
   },
   "platforms": {
@@ -22,6 +22,9 @@
   "swift_versions": "5.0",
   "dependencies": {
     "CocoaLumberjack/Swift": [
+
+    ],
+    "Texture": [
 
     ]
   },

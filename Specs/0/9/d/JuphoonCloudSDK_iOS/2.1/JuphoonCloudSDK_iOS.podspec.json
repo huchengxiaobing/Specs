@@ -69,7 +69,7 @@
                   "name": "os",
                   "subspecs": [
                     {
-                      "name": "os",
+                      "name": "ios",
                       "source_files": "include/avatar/zos/os/ios/*.h"
                     }
                   ]

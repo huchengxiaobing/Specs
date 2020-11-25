@@ -63,6 +63,7 @@
     },
     {
       "name": "ZHSdkLib",
+      "frameworks": "WebKit",
       "vendored_frameworks": "HRLivingBodyDetection/Frameworks/MGFaceID*.framework",
       "resources": "HRLivingBodyDetection/Resources/MGFaceIDLiveCustomDetect.bundle"
     }
